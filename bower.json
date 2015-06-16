@@ -1,0 +1,25 @@
+{
+  "name": "mangular-socket-io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/MangoMM/mangular-socket-io",
+  "authors": [
+    "Ahmet Soormally <ahmet@mangomm.co.uk>"
+  ],
+  "description": "AngularJS Provider Wrapper for Socket.io",
+  "main": "mangular-socket-io.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "AngularJS",
+    "Socket.io"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
