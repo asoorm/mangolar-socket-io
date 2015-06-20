@@ -1,12 +1,12 @@
 {
   "name": "mangular-socket-io",
-  "version": "0.0.0",
-  "homepage": "https://github.com/MangoMM/mangular-socket-io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/MangoMM/mangolar-socket-io",
   "authors": [
     "Ahmet Soormally <ahmet@mangomm.co.uk>"
   ],
   "description": "AngularJS Provider Wrapper for Socket.io",
-  "main": "mangular-socket-io.js",
+  "main": "dist/mangolar-socket-io.js",
   "moduleType": [
     "globals"
   ],
