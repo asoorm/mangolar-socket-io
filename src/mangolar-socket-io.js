@@ -3,10 +3,9 @@
 
     angular
         .module('mangolar-socket.io', [])
-        .provider("$mangoSocketProvider", $mangoSocketProvider);
+        .provider("$mangolarSocketIo", $mangoSocketProvider);
 
     function $mangoSocketProvider() {
-        "use strict";
 
         var self = this;
 
@@ -28,7 +27,7 @@
         self.$get = $socketFactory;
 
         function setConnectionUrl(value) {
-            if (typeof value != type) {
+            if (typeof value != 'string') {
                 throw new TypeError("'%s' must be of type '%s'", name, type);
             }
 
