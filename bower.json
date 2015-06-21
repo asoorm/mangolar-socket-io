@@ -1,6 +1,6 @@
 {
   "name": "mangular-socket-io",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/MangoMM/mangolar-socket-io",
   "authors": [
     "Ahmet Soormally <ahmet@mangomm.co.uk>"
@@ -11,6 +11,8 @@
     "globals"
   ],
   "keywords": [
+    "angular js",
+    "angular",
     "AngularJS",
     "Socket.io"
   ],
