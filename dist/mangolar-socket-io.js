@@ -3,10 +3,9 @@
 
     angular
         .module('mangolar-socket.io', [])
-        .provider("$mangolarSocketIo", $mangoSocketProvider);
+        .provider("$mangolarSocketIo", $mangolarSocketIoProvider);
 
-    function $mangoSocketProvider() {
-
+    function $mangolarSocketIoProvider() {
         var self = this;
 
         var ioUrl = 'http://localhost:4000';
@@ -28,7 +27,7 @@
 
         function setConnectionUrl(value) {
             if (typeof value != 'string') {
-                throw new TypeError("'%s' must be of type '%s'", name, type);
+                throw new TypeError("'" + value + "' must be of type 'string'");
             }
 
             ioUrl = value;
@@ -80,7 +79,7 @@
 
         function setOption(name, value, type) {
             if (typeof value != type) {
-                throw new TypeError("'%s' must be of type '%s'", name, type);
+                throw new TypeError("'" + name + "' must be of type '" + type + "'");
             }
 
             ioConfig[name] = value;
